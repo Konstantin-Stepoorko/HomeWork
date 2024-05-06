@@ -1,6 +1,6 @@
 from typing import ClassVar
 from typing import Literal
-# Домашняя работа 4 (Задания 1 - 12)
+# Домашняя работа 4 (Задания 1 - 12, 14)
 # Создание класса Автомобили
 
 import random
@@ -50,10 +50,10 @@ class Car:
       print('Неверный тип двигателя')
 
   def __repr__(self):
-    return f'Car({self.brand!r}: {self.year!r})'
+    return f'Car(brand={self.brand}, year={self.year})'
 
   def __str__(self):
-    return '%s: %s' % (self.brand, self.year)
+    return f'Марка автомобиля: {self.brand}, год выпуска: {self.year}'
 
 class ElectricCar(Car):
   def __init__(self, brand, year, battery_size):
@@ -108,5 +108,7 @@ if __name__ == "__main__":
   bentley.engine_type="бензиновый"
   bentley.engine_type="Бензиновый"
   print()
-  print(str(bentley.year))
-  print(chevrolet)
+  print(bentley)
+  print(bentley.__str__())
+  print(bentley.__repr__())
+  print()
