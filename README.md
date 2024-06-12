@@ -26,8 +26,8 @@ DZ_8_KNC_SVC.py - Использование модели KNeighbors  и SVC
 ------------------------
 Задание №10 -> Проектная работа по 10-му занятию: Работа с датасетами
 PP_LineRegress_1.ipynb  - Анализ датасета
-PP_EDA_analyz.ipynb  - Анализ датасета
-DZ_8_LightGBM.py - Использование модели LightGBM
+PP_EDA_analyz.ipynb  - EDA Анализ датасета
+PP_poker_ds.ipynb - Работа с датасет - покерная рука (полный набор)
 DZ_8_CatBoost.py - Использование модели CatBoost
 DZ_8_KNC_SVC.py - Использование модели KNeighbors  и SVC
 ------------------------
