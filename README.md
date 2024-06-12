@@ -28,6 +28,5 @@ DZ_8_KNC_SVC.py - Использование модели KNeighbors  и SVC
 PP_LineRegress_1.ipynb  - Анализ датасета
 PP_EDA_analyz.ipynb  - EDA Анализ датасета
 PP_poker_ds.ipynb - Работа с датасет - покерная рука (полный набор)
-DZ_8_CatBoost.py - Использование модели CatBoost
-DZ_8_KNC_SVC.py - Использование модели KNeighbors  и SVC
+PP_poker_.ipynb - Работа с датасет - покерная рука (очищенный набор)
 ------------------------
